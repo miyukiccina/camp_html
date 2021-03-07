@@ -1,0 +1,77 @@
+body{
+    font-family: 'Noto Serif JP', serif;
+    color:#faebd7;
+    background: #023d53;
+    text-align: center;
+    width: 1200px;
+    margin:auto;
+
+}
+
+/* ↓ここから「title」 */
+
+.title h1{
+    font-size: 80px;
+    margin: 40px;
+}   
+
+.subtitle{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+
+}
+
+/* ↑ここまで「title」 */
+
+/* ↓ここから「contents」 */
+
+
+.contents{
+    height: 800px;
+}
+
+.menu{
+    font-size: 60px;
+    color:#023d53;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.images{
+    margin: auto;
+    text-align: center;
+}
+
+.photo{
+    height: 400px;
+    width: 600px;
+    border-radius: 10%;
+}
+
+.comment{
+    font-size: 30px;
+    margin: 20px;
+}
+
+#search{
+    height: 100px;
+    width: 500px;
+    font-size: 50px;
+    font-family: 'Noto Serif JP', serif;
+    background-color:yellowgreen;
+    box-shadow : 10px 10px lightslategray;
+}
+
+#search:active{
+    box-shadow:none;
+    position: relative;
+    top: 10px;
+}
+
+/* ↑ここまで「contents」 */
+
+.footer{
+    height:200px;
+}
